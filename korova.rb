@@ -15,6 +15,16 @@ def tell(name, phrase)
   speech(name) + phrase
 end
 
+def process(input)
+  r = ''
+  input.each do |s|
+    if s != 'р'
+      r += s
+    end
+    r
+  end
+end
+
 # Узнаем имя Краба
 puts tell(PROGRAM_NAME, 'Как тебя зовут?')
 print speech(USER_NAME)
