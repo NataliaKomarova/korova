@@ -21,8 +21,8 @@ def process(input)
     if s != 'р'
       r += s
     end
-    r
   end
+  r
 end
 
 # Узнаем имя Краба
